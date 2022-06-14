@@ -1,0 +1,21 @@
+
+            -------------Day-1-----Tasks----------
+
+
+
+
+Student Name     ----------  Student Code  -------  Task------  ------Attendence------
+Choudhary Jitendra  -------	 fw19_0159  ---------Navabar page,home page  ---- Preseent-----
+Sofiyan Shaikh      -------	 fw19_0350    ---------No Task--------------   Absent--------
+Satya Sai Chodisetty ------- fw19_0083  ---------  Brushes,offers Page-------Preseent--------
+Chaitanya Akku      --------  fw19_1146  ---------  Blog page  ------------Preseent----------
+Ak Ab(ajay kumar)   --------  fw19_0841  ---------  bottom Page  --------Preseent---------
+Sanjay Kumar        --------  fw19_0014  ---------  Makeup page --------Preseent--------
+
+
+
+
+
+
+
+                 ---------End Of  The Day----------
