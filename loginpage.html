@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          * {
+               box-sizing: border-box;
+               padding: 0%;
+               margin: 0%;
+          }
+
+          #navbar-ajaya {
+               box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+               width: 100%;
+               padding: 20px;
+               background-color: #f8f9fa;
+          }
+
+          #navbar-ajaya-upper {
+               width: 100%;
+               margin: auto;
+               display: grid;
+               justify-content: space-between;
+               grid-template-columns: 10% 50% 20% 20%;
+
+          }
+
+          #navbar-ajaya-upper>div {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+          }
+
+          #ajaya-logo {
+               width: 100%;
+          }
+
+          #ajaya-input {
+               width: 80%;
+               padding: 10px;
+               margin-left: 50px;
+               border-top-left-radius: 20px;
+               border-bottom-left-radius: 20px;
+               border: none;
+          }
+
+          #navbar-ajaya-upper2>button {
+               border: none;
+               background-color: black;
+               color: white;
+               padding: 10px;
+               margin-left: -5px;
+               border-top-right-radius: 20px;
+               border-bottom-right-radius: 20px;
+          }
+
+          #navbar-ajaya-upper3>a {
+               font-size: 18px;
+          }
+
+          #navbar-ajaya-upper3>img {
+               width: 25px;
+               height: 25px;
+               margin: 5px;
+          }
+
+          #navbar-ajaya-upper4 {
+               display: flex;
+               justify-content: end;
+          }
+
+          #ajaya-anchor {
+               margin-top: 25px;
+               display: flex;
+               width: 70%;
+               justify-content: space-between;
+          }
+
+          #ajaya-anchor>a {
+               text-decoration: none;
+               color: black;
+               font-size: 15px;
+          }
+
+          #ajaya-anchor>a:hover {
+               font-size: 18px;
+          }
+
+          /* login css */
+          body{
+               position: relative;
+          }
+          #login {
+               width:50%;
+               background-color: pink;
+               padding: 15px;
+               margin-left: 50%;
+               position: absolute;
+               top: 0%;
+               height: 100vh;
+          }
+       .login{
+          visibility: hidden;
+       }
+          .login-open{
+               visibility: visible;
+          }
+          #login>button {
+               width: 20px;
+               font-size: 20px;
+               background-color: pink;
+               border: none;
+               color: white;
+          }
+
+          #login>h2 {
+               color: whitesmoke;
+               text-transform: capitalize;
+               font-size: 30px;
+               margin-bottom: 20px;
+          }
+
+          #login-box {
+               box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+               background-color: white;
+               width: 90%;
+               padding: 20px;
+          }
+
+          #login-box>div {
+               display: flex;
+               justify-content: space-between;
+               width: 80%;
+               margin: 20px;
+          }
+
+          #login-box>div>img {
+               width: 40px;
+          }
+
+          #login-box>div>p {
+               font-size: 30px;
+          }
+
+          #login-box>div>input {
+               width: 60%;
+               border: none;
+               border-bottom: 2px solid pink;
+               margin-right: 20px;
+               font-size: 30px;
+          }
+
+          #login-box>div>button {
+               padding: 0px 10px;
+          }
+
+          #login-box>div+p {
+               color: red;
+               margin-bottom: 20px;
+          }
+
+          hr {
+               margin-bottom: 30px;
+          }
+
+          #otp {
+               width: 5%;
+               border: none;
+               border-bottom: 2px solid pink;
+          }
+
+          #login-box>#login-box3 {
+               width: 60%;
+          }
+
+          #login-box>#login-box3>button {
+               padding: 10px 15px;
+          }
+          #lastpara{
+               text-align: left;
+               font-size: 18px;
+               margin-bottom: 10px;
+               margin-top: 20px;
+          }
+     </style>
+</head>
+
+<body>
+     <div id="navbar-ajaya">
+          <div id="navbar-ajaya-upper">
+               <div id="navbar-ajaya-upper1">
+                    <img id="ajaya-logo" src="https://in.sugarcosmetics.com/desc-images/pride-logo-option.gif" alt="">
+               </div>
+               <div id="navbar-ajaya-upper2">
+                    <input id="ajaya-input" type="text" placeholder="Type to search">
+                    <button>Search</button>
+               </div>
+               <div id="navbar-ajaya-upper3">
+                    <img src="https://in.sugarcosmetics.com/desc-images/person.png" alt="">
+                    <a id="loginS" href="">Login/Signup</a>
+               </div>
+               <div id="navbar-ajaya-upper3">
+                    <img src="https://www.svgrepo.com/show/77105/black-heart-shaped.svg" alt="">
+                    <img src="https://www.seekpng.com/png/full/621-6212255_cart-bag-png-icons.png" alt="">
+                    <img src="https://in.sugarcosmetics.com/desc-images/discountIcon.svg" alt="">
+               </div>
+
+          </div>
+          <div id="ajaya-anchor">
+               <a href="">MAKEUP</a>
+               <a href="">BRUSHES</a>
+               <a href="">SKINCARE</a>
+               <a href="">TRENDING</a>
+               <a href="">BLOG</a>
+               <a href="">OFFERS</a>
+               <a href="">STORES</a>
+          </div>
+     </div>
+     <div class="login" id="login">
+          <button id="login-off">X</button>
+          <h2>login/signup</h2>
+          <div id="login-box">
+               <div>
+                    <img src="https://in.sugarcosmetics.com/smartphone.svg" alt="">
+                    <p>Login/Sign Up Using Phone</p>
+               </div>
+               <div class="login-name">
+                   <h2 id="login-name">Name</h2>
+                   <input type="text" required="required">
+               </div>
+               <div>
+                    <h1>+91</h1>
+                    <input id="phone" type="phone" required="required" value="">
+                    <button id="request-otp">Request OTP</button>
+               </div>
+               <p>Enter your phone no to Request an OTP</p>
+               <hr>
+               <div id="login-box3">
+                    <input id="otp" type="number">
+                    <button id="otp-button">
+                         Verify OTP
+                    </button>
+               </div>
+                    <input type="checkbox">
+               <label for="">Get Important Updates on Whatsapp. <a href=""> Terms and Conditions</a></label>
+          </div>
+          <p id="lastpara">Registering for this site allows you to access your order status and history. Just fill in the
+               fields below, and we'll get a new account set up for you in no time. We will only ask you
+               for information necessary to make the purchase process faster and easier</p>
+               <p>By Signing up or logging in, you agree to our <a href="">Terms and Conditions</a> </p>
+     </div>
+</body>
+<script>
+document.getElementById("loginS").addEventListener("click",open)
+let login=document.getElementById("login")
+let button=document.getElementById("login-off")
+button.addEventListener("click",close)
+function open(){
+     event.preventDefault()
+     login.classList.add("login-open")
+}
+function close(){
+     event.preventDefault()
+     login.classList.remove("login-open")
+}
+// otp request
+let mobile=document.getElementById("request-otp")
+mobile.addEventListener("click",mobileVerify)
+function mobileVerify(){
+     event.preventDefault()
+     console.log("inside")
+     let phoneno=document.getElementById("phone").value
+     console.log(phoneno)
+     if(phoneno.length==10){
+          alert("verify your otp")
+     }else{
+          alert("enter a valid phone no")
+     }
+}
+// "verify"
+
+let verify=document.getElementById("otp-button")
+verify.addEventListener("click",Myfunction)
+function Myfunction(){
+     event.preventDefault()
+     console.log("inside function")
+let otp=document.getElementById("otp").value 
+if(otp=="1234"){
+     let name=document.getElementById("login-name").innerText
+     localStorage.setItem("name",name)
+     localStorage.setItem("status","online")
+     window.location.href="Home.html"
+}else{
+alert("wrong otp")
+}
+}
+
+</script>
+</html>
