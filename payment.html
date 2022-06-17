@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT SECTION</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+    <div id="home">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Home-icon.svg/2048px-Home-icon.svg.png"
+            alt="">
+        <p>Go Back To Homepage</p>
+    </div>
+    <h1 class="head">PAYMENT GATEWAY</h1>
+    <div id="body">
+        <div>
+            <div class="body-head">
+                <img src="https://in.sugarcosmetics.com/desc-images/Add_Address.svg" alt="">
+                <p>Add Delivery Address</p>
+            </div>
+            <div>x </div>
+        </div>
+
+
+        <div>
+            <div class="sperate">
+                <label for="name" class="quicksand">Full Name</label><br>
+                <input type="text" name="name" placeholder="Fullname" id="name_1">
+            </div>
+            <div class="sperate"><label for="number" class="quicksand">Mobile Number</label><br>
+                <input type="number" placeholder="Mobile Number" name="number" id="number_1">
+            </div>
+        </div>
+
+        <div>
+            <label for="Address" class="quicksand">
+                Address
+            </label><br>
+            <input type="text" placeholder="Address Line 1" id="address_line_1"><br>
+            <input type="text" placeholder="Address Line 2" id="address_line_2"><br>
+            <input type="number" placeholder="Zipcode" id=""><br>
+            <input type="text" placeholder="Country" id=""><br>
+            <input type="text" placeholder="State" id=""><br>
+            <input type="text" placeholder="City" id=""><br>
+        </div>
+        <div>
+            <div id="next">Continue</div>
+        </div>
+    </div>
+    <div id="body_2">
+        <div>
+            <div>
+                <img src="https://cdn-icons-png.flaticon.com/512/858/858170.png" alt="">
+                <h3 class="quick">Bank Name</h3><br>
+            </div>
+            <select name="bank" id="bank_name">
+                <option value="">HDFC Bank</option>
+                <option value="">ICICI Bank</option>
+                <option value="">AXIS Bank</option>
+                <option value="">YES Bank</option>
+                <option value="">SBI Bank</option>
+            </select>
+        </div>
+
+        <div>
+            <div>
+
+                <h3 class="quick">Debit / Credit Card number</h3>
+                <input type="number" name="" id="">
+            </div>
+            <div>
+                <h3 class="quick">CVV</h3>
+                <input type="number" id="">
+            </div>
+        </div>
+        <div>
+            <h3 class="quick">Password</h3>
+            <input type="text">
+        </div>
+        <div id="pay">
+            PAY
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="payment.js"></script>
