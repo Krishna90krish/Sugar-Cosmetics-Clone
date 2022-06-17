@@ -5,8 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brushes</title>
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        #top>img{
+           width: 100%;
+           
+        }
+        
+        #Product{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            gap: 10px 20px;
+     
+        }
+        h2{
+            text-align: center;
+        }
+        #Product>div>p{
+            text-align: center;
+        }
+   
+        #Product>div>img{
+            width: 100%;
+           
+        }
+      
+        
+        #Product>div:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            
+        }
+        button {
+            color: transparent;
+            border-color: transparent;
+            
+             display: block;
+             margin:  auto;
+             padding: 5px;
+          
+             
+
+          
+        }
+        button:hover{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            background-color: black;
+            color: blanchedalmond;
+        }
+      
+        
+    </style>
 </head>
 <body>
+    <div id="top">
+        <img src="https://d32baadbbpueqt.cloudfront.net/Collection/39da2bc6-d83c-4350-a2b1-0c0ec7a721a8.jpg" alt="">
+    </div>
     <select  id=" Filter">
         <option value="All">All products</option>
         <option value="Eyes">Eyesshadow brush</option>
@@ -14,11 +73,13 @@
        <option value="Face">Face brush</option>
        <option value="Brush">Brush combo</option>
     </select>
+  
     <div id="Product">
 
     </div>
+   
     
 </body>
 </html>
-<script src="brush.js">
+<script src="brush.js"></script>
   
