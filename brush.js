@@ -130,7 +130,7 @@ function displayProducts(productData){
     
     productData.forEach(function(elem){
      
-    //    pdata.innerHTML="";
+     // pdata.innerHTML="";
         let prds=document.createElement("div");
     //    let prd2=document.createElement("div")
         let img=document.createElement("img");

@@ -8,53 +8,9 @@ Student Name     ----------  Student Code  -------  Task------  ------Attendence
 Choudhary Jitendra  -------	 fw19_0159  ---------Navabar page,home page  ---- Preseent-----
 Sofiyan Shaikh      -------	 fw19_0350    ---------No Task--------------   Absent--------
 Satya Sai Chodisetty ------- fw19_0083  ---------  Brushes,offers Page-------Preseent--------
-Chaitanya Akku      --------  fw19_1146  ---------  Blog page/Trending page  ------------Preseent----------
+Chaitanya Akku      --------  fw19_1146  ---------  Blog page  ------------Preseent----------
 Ak Ab(ajay kumar)   --------  fw19_0841  ---------  bottom Page  --------Preseent---------
 Sanjay Kumar        --------  fw19_0014  ---------  Makeup page --------Preseent--------
-
-
-
-
-
-
-
-                 ---------End Of  The Day----------
-
-                             -------------Day-2-----Tasks----------
-Date:15/06/2022
-
-
-
-Student Name     ----------  Student Code  -------  Task------  ------Attendence------
-Choudhary Jitendra  -------	 fw19_0159  ---------Navabar page,home page  ---- Preseent-----
-Sofiyan Shaikh      -------	 fw19_0350    ---------No Task--------------   Absent--------
-Satya Sai Chodisetty ------- fw19_0083  ---------  Brushes,offers Page-------Preseent--------
-Chaitanya Akku      --------  fw19_1146  ---------  Blog page/Trending page------------Preseent----------
-Ak Ab(ajay kumar)   --------  fw19_0841  ---------  No Task  --------Absent---------
-Sanjay Kumar        --------  fw19_0014  --------- No Task --------Absent--------
-
-
-
-
-
-
-
-                 ---------End Of  The Day----------
-
-
-
-                             -------------Day-3-----Tasks----------
-Date:16/06/2022
-
-
-
-Student Name     ----------  Student Code  -------  Task------  ------Attendence------
-Choudhary Jitendra  -------	 fw19_0159  ---------Navabar page,home page  ---- Preseent-----
-Sofiyan Shaikh      -------	 fw19_0350    ---------No Task--------------   Absent--------
-Satya Sai Chodisetty ------- fw19_0083  ---------  Brushes,offers Page-------Preseent--------
-Chaitanya Akku      --------  fw19_1146  ---------  Blog page/Trending page------------Preseent----------
-Ak Ab(ajay kumar)   --------  fw19_0841  --------- previous Task  --------Preseent---------
-Sanjay Kumar        --------  fw19_0014  --------- previous Task --------Preseent--------
 
 
 
