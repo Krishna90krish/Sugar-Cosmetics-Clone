@@ -58,6 +58,142 @@
             background-color: black;
             color: blanchedalmond;
         }
+        #home{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        #home2{
+           display: flex;
+           justify-content: space-around;
+        }
+        .bottom{
+          padding: 20px;
+          background-color: black;
+          color: white;
+     }
+     img:hover{
+     cursor: pointer;
+     }
+     #sugar-foot-logo{
+          width: 8%;
+          display: block;
+          margin: auto;
+     }
+     #social-logo{
+          margin: auto;
+          width:15% ;
+          display: flex;
+          justify-content: space-between;
+     }
+     #social-logo>img{
+          width: 20px;
+          height: 20px;
+     }
+     #social-logo+p{
+               text-transform: uppercase;
+               font-size: 15px;
+          }
+          #box1{
+               display: flex;
+               width: 100%;
+          }
+          #box1>div{
+               width: 50%;
+          }
+          #box11>p{
+               margin-bottom: 20px;
+          }
+          #box11>input{
+               border: none;
+               background-color:black;
+               padding: 10px;
+               font-size: 16px;
+               border-bottom: 2px solid white;
+          }
+          #box11>input:focus{
+               outline: none;
+          }
+          #box11>button{
+               padding: 15px 20px;
+               background-color: #fc2779;
+               border: none;
+               border-radius: 5px;
+          }
+          #box12>p{
+               margin-bottom: 20px;
+          }
+          #box121{
+               display: flex;
+          }
+          #box1211{
+            width: 30%;
+            color: gray;
+          }
+          #box1212 img{
+               width: 40%;
+               height: 35px;
+          }
+          .para20{
+               margin: 30px auto 30px 0px;
+          }
+          #box2{
+               width: 70%;
+               display: flex;
+               justify-content:space-between;
+               
+          }
+          #box2 a{
+               text-decoration: none;
+               color: gray;
+               font-size: 18px;
+          }
+          #box2 a:hover{
+               text-decoration: underline;
+          }
+          #getintouch{
+               width: 100%;
+               display: grid;
+               grid-template-columns: repeat(5,1fr);
+               grid-template-rows: auto;
+               justify-content: space-between;
+          }
+          #getintouch a{
+               text-decoration: none;
+               color: gray;
+          }
+          #getintouch a:hover{
+               text-decoration:underline;
+          }
+          #span{
+          text-transform: uppercase;
+          }
+          #getintouch p{
+               font-size: 20px;
+                margin-top: -5px;
+          }
+         #getintouch #lastpara{
+               font-size: 12px;
+               color: gray;
+          }
+          @media all and (min-width: 768px) and (max-width: 1024px){
+            #Product{
+           display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: auto;
+            width: auto;
+     
+        }
+          }
+          @media all and (min-width: 120px) and (max-width: 767px){
+            #Product{
+                display: grid;
+           grid-template-columns: repeat(2,1fr);
+           grid-template-rows: auto;
+           width: auto;
+    
+       }
+          }
       
         
     </style>
@@ -65,6 +201,16 @@
 <body>
     <div id="top">
         <img src="https://d32baadbbpueqt.cloudfront.net/Collection/39da2bc6-d83c-4350-a2b1-0c0ec7a721a8.jpg" alt="">
+    </div>
+    <div id="home">
+        <div>
+            <h3><img src="https://in.sugarcosmetics.com/desc-images/breadcrumb_home.svg" alt="">/ Blend trend makeup brush</h3>
+           <p>Makeup Brushes - 12 items</p>
+        </div>
+        <div id="home2">
+            <div><h3><img src="https://in.sugarcosmetics.com/desc-images/filterIcon.png" alt="">Filter</h3></div>
+            <div><h3><img src="https://in.sugarcosmetics.com/sortImage.png" alt="">Sort</h3></div>
+        </div>
     </div>
     <select  id=" Filter">
         <option value="All">All products</option>
@@ -77,6 +223,76 @@
     <div id="Product">
 
     </div>
+    <div class="bottom">
+        <img id="sugar-foot-logo" src="https://in.sugarcosmetics.com/Footer_sugar_icon.png" alt="sugar-foot-logo">
+        <div id="social-logo">
+             <img src="https://in.sugarcosmetics.com/desc-images/facebook.svg" alt="facebook-logo">
+             <img src="https://in.sugarcosmetics.com/desc-images/Instagram.svg" alt="Instagram-logo">
+             <img src="https://in.sugarcosmetics.com/desc-images/Pinterest.svg" alt="Pinterest-logo">
+             <img src="https://in.sugarcosmetics.com/desc-images/Tumblr.svg"  alt="Tumblr-logo">
+             <img src="https://in.sugarcosmetics.com/desc-images/Youtube.svg" alt="Youtube-logo">
+             <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-white-circle-png-images-23.png" alt="twitter-logo">
+        </div>
+        <div id="box1">
+             <div id="box11">
+                  <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+                  <input type="email" placeholder="Your email address">
+                  <button>SIGN UP</button>
+             </div>
+             <div id="box12">
+                  <p>GET THE NEW SUGAR APP TODAY.</p>
+                  <div id="box121">
+                       <div id="box1211">
+                            Tap into a better shopping experience.
+                       </div>
+                       <div id="box1212">
+                            <img src="https://in.sugarcosmetics.com/playstore.png" alt="">
+                            <img src="https://in.sugarcosmetics.com/apple-store.png" alt="">
+                       </div>
+                  </div>
+             </div>
+        </div>
+        <p class="para20">INFORMATION</p>
+        <div id="box2">
+             <a href="">Store</a>
+             <a href="">Terms & Conditions</a>
+             <a href="">Returns</a>
+             <a href="">FAQs</a>
+             <a href="">About Us</a>
+        </div>
+        <p class="para20">GET IN TOUCH</p>
+        <div id="getintouch">
+             <div>
+                  <span><img src="https://in.sugarcosmetics.com/desc-images/phone_android_white.svg" alt=""></span><span id="span">Call us at</span>
+                  <p><a href="">1800-209-9933</a></p>
+                  <p id="lastpara">Monday to Friday : 9 AM to 7 PM</p>
+             </div>
+             <div>
+                  <h3>
+                       Support
+                  </h3>
+                  <p><a href="">hello@sugarcosmetics.com</a></p>
+             </div>
+             <div>
+                  <h3>
+                       Careers
+                  </h3>
+                  <p><a href="">We're hiring!</a></p>
+             </div>
+             <div>
+                  <h3>
+                       PRESS & MEDIA
+                  </h3>
+                  <p><a href="">pr@sugarcosmetics.com</a></p>
+             </div>
+             <div id="lastdiv">
+                  <h3>
+                       INFLUENCER COLLAB
+                  </h3>
+                  <p ><a href="">JOIN US</a></p>
+             </div>
+        </div>
+   </div>
    
     
 </body>
