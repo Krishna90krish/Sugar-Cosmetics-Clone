@@ -682,6 +682,105 @@ img:hover {
 }
 
 /* Bottom part */
-#brush {
-    border: 1px solid black;
+
+
+body {
+    position: relative;
+}
+
+#login {
+    width: 50%;
+    background-color: pink;
+    padding: 15px;
+    margin-left: 50%;
+    position: fixed;
+    top: 0%;
+    height: 100vh;
+}
+
+.login {
+    visibility: hidden;
+}
+
+.login-open {
+    visibility: visible;
+}
+
+#login>button {
+    width: 20px;
+    font-size: 20px;
+    background-color: pink;
+    border: none;
+    color: white;
+}
+
+#login>h2 {
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#login-box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    width: 90%;
+    padding: 20px;
+}
+
+#login-box>div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px;
+}
+
+#login-box>div>img {
+    width: 40px;
+}
+
+#login-box>div>p {
+    font-size: 30px;
+}
+
+#login-box>div>input {
+    width: 60%;
+    border: none;
+    border-bottom: 2px solid pink;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+#login-box>div>button {
+    padding: 0px 10px;
+}
+
+#login-box>div+p {
+    color: red;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+#otp {
+    width: 5%;
+    border: none;
+    border-bottom: 2px solid pink;
+}
+
+#login-box>#login-box3 {
+    width: 60%;
+}
+
+#login-box>#login-box3>button {
+    padding: 10px 15px;
+}
+
+#lastpara {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
