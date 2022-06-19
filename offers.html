@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>offers</title>
+    <style>
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+#Offer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+   gap: 10px ;
+  
+}
+#Offer>div{
+ border: 1px solid black;
+ border-radius: 10px;
+}
+img{
+    width: 100%;
+}
+.bottom{
+          padding: 20px;
+          background-color: black;
+          color: white;
+     }
+     img:hover{
+     cursor: pointer;
+     }
+     #sugar-foot-logo{
+          width: 8%;
+          display: block;
+          margin: auto;
+     }
+     #social-logo{
+          margin: auto;
+          width:15% ;
+          display: flex;
+          justify-content: space-between;
+     }
+     #social-logo>img{
+          width: 20px;
+          height: 20px;
+     }
+     #social-logo+p{
+               text-transform: uppercase;
+               font-size: 15px;
+          }
+          #box1{
+               display: flex;
+               width: 100%;
+          }
+          #box1>div{
+               width: 50%;
+          }
+          #box11>p{
+               margin-bottom: 20px;
+          }
+          #box11>input{
+               border: none;
+               background-color:black;
+               padding: 10px;
+               font-size: 16px;
+               border-bottom: 2px solid white;
+          }
+          #box11>input:focus{
+               outline: none;
+          }
+          #box11>button{
+               padding: 15px 20px;
+               background-color: #fc2779;
+               border: none;
+               border-radius: 5px;
+          }
+          #box12>p{
+               margin-bottom: 20px;
+          }
+          #box121{
+               display: flex;
+          }
+          #box1211{
+            width: 30%;
+            color: gray;
+          }
+          #box1212 img{
+               width: 40%;
+               height: 35px;
+          }
+          .para20{
+               margin: 30px auto 30px 0px;
+          }
+          #box2{
+               width: 70%;
+               display: flex;
+               justify-content:space-between;
+               
+          }
+          #box2 a{
+               text-decoration: none;
+               color: gray;
+               font-size: 18px;
+          }
+          #box2 a:hover{
+               text-decoration: underline;
+          }
+          #getintouch{
+               width: 100%;
+               display: grid;
+               grid-template-columns: repeat(5,1fr);
+               grid-template-rows: auto;
+               justify-content: space-between;
+          }
+          #getintouch a{
+               text-decoration: none;
+               color: gray;
+          }
+          #getintouch a:hover{
+               text-decoration:underline;
+          }
+          #span{
+          text-transform: uppercase;
+          }
+          #getintouch p{
+               font-size: 20px;
+                margin-top: -5px;
+          }
+         #getintouch #lastpara{
+               font-size: 12px;
+               color: gray;
+          }
+          @media all and (min-width: 768px) and (max-width: 1024px)
+          {
+            #Offer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+   gap: 10px ;
+   width: auto;
+  
+}
+          }
+          @media all and (min-width: 120px) and (max-width: 767px)
+          {
+            #Offer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+   gap: 10px ;
+  
+}
+          }
+    </style>
+</head>
+<body>
+    <h1>General Offers</h1>
+ <div id="Offer">
+     <div>
+        <img src="https://d32baadbbpueqt.cloudfront.net/0bb92e9c-97ca-453c-ad4e-c0ae8c9a0678.jpg" alt="">
+        
+    </div>
+     <div>
+        <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/479caa48-4f60-42de-84a7-d23b6c244f82.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/eb7f9151-3f06-452c-bb2d-7ebd336bf603.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/4f57f7f3-1af0-4d93-bebf-05fabd36ba0a.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/11e748f5-43a4-43d8-8165-48bc86859441.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/16ec57e3-c0e0-4ac2-8eed-26dc9a2c5aa5.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://d32baadbbpueqt.cloudfront.net/Promotion/835392ea-a7f1-457c-ab6e-4bf22ca74594.jpg" alt="">
+     </div>
+     <div>
+        <img src="https://d32baadbbpueqt.cloudfront.net/d88bf139-fc6c-42fc-bb87-36981e06acee.jpg" alt="">
+     </div>
+ </div>
+ <div class="bottom">
+    <img id="sugar-foot-logo" src="https://in.sugarcosmetics.com/Footer_sugar_icon.png" alt="sugar-foot-logo">
+    <div id="social-logo">
+         <img src="https://in.sugarcosmetics.com/desc-images/facebook.svg" alt="facebook-logo">
+         <img src="https://in.sugarcosmetics.com/desc-images/Instagram.svg" alt="Instagram-logo">
+         <img src="https://in.sugarcosmetics.com/desc-images/Pinterest.svg" alt="Pinterest-logo">
+         <img src="https://in.sugarcosmetics.com/desc-images/Tumblr.svg"  alt="Tumblr-logo">
+         <img src="https://in.sugarcosmetics.com/desc-images/Youtube.svg" alt="Youtube-logo">
+         <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-white-circle-png-images-23.png" alt="twitter-logo">
+    </div>
+    <div id="box1">
+         <div id="box11">
+              <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+              <input type="email" placeholder="Your email address">
+              <button>SIGN UP</button>
+         </div>
+         <div id="box12">
+              <p>GET THE NEW SUGAR APP TODAY.</p>
+              <div id="box121">
+                   <div id="box1211">
+                        Tap into a better shopping experience.
+                   </div>
+                   <div id="box1212">
+                        <img src="https://in.sugarcosmetics.com/playstore.png" alt="">
+                        <img src="https://in.sugarcosmetics.com/apple-store.png" alt="">
+                   </div>
+              </div>
+         </div>
+    </div>
+    <p class="para20">INFORMATION</p>
+    <div id="box2">
+         <a href="">Store</a>
+         <a href="">Terms & Conditions</a>
+         <a href="">Returns</a>
+         <a href="">FAQs</a>
+         <a href="">About Us</a>
+    </div>
+    <p class="para20">GET IN TOUCH</p>
+    <div id="getintouch">
+         <div>
+              <span>📱Call us at</span>
+              <p><a href="">1800-209-9933</a></p>
+              <p id="lastpara">Monday to Friday : 9 AM to 7 PM</p>
+         </div>
+         <div>
+              <h3>
+                   Support
+              </h3>
+              <p><a href="">hello@sugarcosmetics.com</a></p>
+         </div>
+         <div>
+              <h3>
+                   Careers
+              </h3>
+              <p><a href="">We're hiring!</a></p>
+         </div>
+         <div>
+              <h3>
+                   PRESS & MEDIA
+              </h3>
+              <p><a href="">pr@sugarcosmetics.com</a></p>
+         </div>
+         <div id="lastdiv">
+              <h3>
+                   INFLUENCER COLLAB
+              </h3>
+              <p ><a href="">JOIN US</a></p>
+         </div>
+    </div>
+</div>
+</body>
+</html>
