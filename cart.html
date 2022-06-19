@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUGAR COSMETICS - CART </title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="uppernav">
+            <img src="https://in.sugarcosmetics.com/desc-images/pride-logo-option.gif" id="home_page_1" alt="">
+
+            <div>
+                <input type="text" placeholder='Try "liquid lipstick" '>
+                <div id="topsearch">Search</div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://in.sugarcosmetics.com/desc-images/person.png" alt="">
+                    <a href="" id="loginS">Login/Register</a>
+                </div>
+            </div>
+
+            <div>
+                <img src="whishlist.jpg" alt="">
+                <img src="cart.jpg" alt="" id="gotocart">
+                <img src="https://in.sugarcosmetics.com/desc-images/discountIcon.svg" id="offers_img" alt="">
+            </div>
+
+        </div>
+        <div id="bottomnav">
+            <div>
+                <p id="makeup">MAKEUP</p>
+            </div>
+            <div>
+                <p id="brush">BRUSHES</p>
+            </div>
+            <div>
+                <p id="skincare">SKINCARE</p>
+            </div>
+            <div>
+                <p id="trending">TRENDING</p>
+            </div>
+            <div>
+                <p id="blog">BLOG</p>
+            </div>
+            <div>
+                <p id="offers">OFFERS</p>
+            </div>
+            <div>
+                <p>STORE</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="login" id="login">
+        <button id="login-off">X</button>
+        <h2>login/signup</h2>
+        <div id="login-box">
+            <div>
+                <img src="https://in.sugarcosmetics.com/smartphone.svg" alt="">
+                <p>Login/Sign Up Using Phone</p>
+            </div>
+            <div class="login-name">
+                <h2 id="login-name">Name</h2>
+                <input type="text" required="required" id="getname">
+            </div>
+            <div>
+                <h1>+91</h1>
+                <input id="phone" type="phone" required="required" value="">
+                <button id="request-otp">Request OTP</button>
+            </div>
+            <p>Enter your phone no to Request an OTP</p>
+            <hr>
+            <div id="login-box3">
+                <input id="otp" type="number">
+                <button id="otp-button">
+                    Verify OTP
+                </button>
+            </div>
+            <input type="checkbox">
+            <label for="">Get Important Updates on Whatsapp. <a href=""> Terms and Conditions</a></label>
+        </div>
+        <p id="lastpara">Registering for this site allows you to access your order status and history. Just fill in the
+            fields below, and we'll get a new account set up for you in no time. We will only ask you
+            for information necessary to make the purchase process faster and easier</p>
+        <p>By Signing up or logging in, you agree to our <a href="">Terms and Conditions</a> </p>
+    </div>
+    <div id="empty-cart">
+        <div style="display: flex;">
+            <a href="home.html"><img style="padding:0px 4px ;"
+                    src="https://in.sugarcosmetics.com/desc-images/breadcrumb_home.svg" alt=""></a>
+            /<p style="padding:0px 4px ;"> <a href="cart.html">CART</a> </p>
+        </div>
+        <div id="symbol">
+            <img src="https://in.sugarcosmetics.com/ic_empty_cart.png" alt="">
+            <p>Hey! It's lonely here. </p>
+            <p>Your bag seems to have no company.</p>
+            <p> Why not add some products?</p>
+            <div>
+                <p id="shopnow">SHOP NOW</p>
+            </div>
+        </div>
+        <div id="cartopen">
+            <!--cartopen  1 div-->
+            <div>
+                <div class="cart-top">
+                    <div>
+                        <img src="https://in.sugarcosmetics.com/desc-images/shopping_cart.svg" alt="">
+                        <p>Order Summary</p>
+                    </div>
+                    <div id="cart-total"></div>
+                </div>
+                <div id="items">
+
+                    <div>
+                        <div>
+                            <img src="https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-matte-as-hell-crayon-minis-lipstick-01-scarlett-o-hara-28219914354771_39239823-2ed8-4b8d-b0db-48c857ae0e3f.jpg?v=1642070562"
+                                alt="">
+                            <p>Matte as Hell Crayon Mini</p>
+                        </div>
+
+                        <div>
+                            <div>
+                                <p><a href="">+Add item</a></p>
+                                <p>RS 199</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--cartopen  2 div-->
+            <div>
+                <div class="cart-top">
+                    <div>
+                        <img src="https://in.sugarcosmetics.com/desc-images/Offers_price_details.svg" alt="">
+                        <p>Offers and Price Details</p>
+                    </div>
+
+                </div>
+                <div id="subtotal">
+                    <div>
+                        <img src="https://in.sugarcosmetics.com/desc-images/GiftCard.svg" alt="">
+                        <p>Gift Card/Discount Code</p>
+                        <input type="text" placeholder="APPLY CODE" id="promocode">
+                        <div id="capplied">APPLY</div>
+                    </div>
+                    <div>
+                        <img src="https://in.sugarcosmetics.com/desc-images/PriceDetails.svg" alt="">
+                        <p>PRICE DETAILS</p>
+                    </div>
+                    <div id="subtotal_detail">
+                        <div>
+                            <div>
+                                <img src="https://in.sugarcosmetics.com/desc-images/CartSubtotal.svg" alt="">
+                                <p>Cart Sub Total:</p>
+                            </div>
+                            <div id="sub_1">₹ 1196.00</div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="https://in.sugarcosmetics.com/desc-images/Shipping_Cost.svg" alt="">
+                                <p>Shipping Cost:</p>
+                            </div>
+                            <div id="sub_2">₹ 0.00</div>
+                        </div>
+
+                        <div>
+                            <div>
+                                <img src="https://in.sugarcosmetics.com/desc-images/Discount.svg" alt="">
+                                <p>Discount Applied:</p>
+                            </div>
+                            <div id="sub_3">₹ 0.00</div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="https://in.sugarcosmetics.com/desc-images/AmountPayable.svg" alt="">
+                                <p>Total Amount Payable:</p>
+                            </div>
+                            <div id="sub_4">₹1196.00</div>
+                        </div>
+                    </div>
+
+                    <div id="continue">
+                        <div>
+                            < continue shopping</div>
+                                <div>Delivery Address</div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <img id="sugar-foot-logo" src="https://in.sugarcosmetics.com/Footer_sugar_icon.png" alt="sugar-foot-logo">
+            <div id="social-logo">
+                <img src="https://in.sugarcosmetics.com/desc-images/facebook.svg" alt="facebook-logo">
+                <img src="https://in.sugarcosmetics.com/desc-images/Instagram.svg" alt="Instagram-logo">
+                <img src="https://in.sugarcosmetics.com/desc-images/Pinterest.svg" alt="Pinterest-logo">
+                <img src="https://in.sugarcosmetics.com/desc-images/Tumblr.svg" alt="Tumblr-logo">
+                <img src="https://in.sugarcosmetics.com/desc-images/Youtube.svg" alt="Youtube-logo">
+                <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-white-circle-png-images-23.png"
+                    alt="twitter-logo">
+            </div>
+            <div id="box1">
+                <div id="box11">
+                    <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+                    <input type="email" placeholder="Your email address">
+                    <button>SIGN UP</button>
+                </div>
+                <div id="box12">
+                    <p>GET THE NEW SUGAR APP TODAY.</p>
+                    <div id="box121">
+                        <div id="box1211">
+                            Tap into a better shopping experience.
+                        </div>
+                        <div id="box1212">
+                            <img src="https://in.sugarcosmetics.com/playstore.png" alt="">
+                            <img src="https://in.sugarcosmetics.com/apple-store.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="para20">INFORMATION</p>
+            <div id="box2">
+                <a href="">Store</a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Returns</a>
+                <a href="">FAQs</a>
+                <a href="">About Us</a>
+            </div>
+            <p class="para20">GET IN TOUCH</p>
+            <div id="getintouch">
+                <div>
+                    <span><img src="https://in.sugarcosmetics.com/desc-images/phone_android_white.svg"
+                            alt=""></span><span id="span">Call us
+                        at</span>
+                    <p><a href="">1800-209-9933</a></p>
+                    <p id="lastpara">Monday to Friday : 9 AM to 7 PM</p>
+                </div>
+                <div>
+                    <h3>
+                        Support
+                    </h3>
+                    <p><a href="">hello@sugarcosmetics.com</a></p>
+                </div>
+                <div>
+                    <h3>
+                        Careers
+                    </h3>
+                    <p><a href="">We're hiring!</a></p>
+                </div>
+                <div>
+                    <h3>
+                        PRESS & MEDIA
+                    </h3>
+                    <p><a href="">pr@sugarcosmetics.com</a></p>
+                </div>
+                <div id="lastdiv">
+                    <h3>
+                        INFLUENCER COLLAB
+                    </h3>
+                    <p><a href="">JOIN US</a></p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
+<script src="cart.js"></script>
