@@ -1,4 +1,84 @@
+document.querySelector("div>#offers_img").addEventListener("click", function () {
+    window.location.assign("offers.html")
+})
+document.querySelector("#home_page_1").addEventListener("click", function () {
+    window.location.assign("home.html")
+})
+document.querySelector("div>#gotocart").addEventListener("click", function () {
+    window.location.assign("cart.html")
+})
+document.querySelector("#bottomnav>div>#makeup").addEventListener("click", function () {
+    window.location.assign("makeup.html")
+})
+document.querySelector("#bottomnav>div>#brush").addEventListener("click", function () {
+    window.location.assign("brush.html")
+})
+document.querySelector("#bottomnav>div>#skincare").addEventListener("click", function () {
+    window.location.assign("skincare.html")
+})
+document.querySelector("#bottomnav>div>#trending").addEventListener("click", function () {
+    window.location.assign("trending.html")
+})
+document.querySelector("#bottomnav>div>#blog").addEventListener("click", function () {
+    window.location.assign("https://blog.sugarcosmetics.com/")
+})
+document.querySelector("#bottomnav>div>#offers").addEventListener("click", function () {
+    window.location.assign("offers.html")
+})
 
+
+
+//navbar function
+let display_name = localStorage.getItem("name") || ""
+if (display_name != "") {
+    document.getElementById("loginS").innerText = display_name
+} else {
+
+    document.getElementById("loginS").addEventListener("click", open)
+    let login = document.getElementById("login")
+    let button = document.getElementById("login-off")
+    button.addEventListener("click", close)
+    function open() {
+        event.preventDefault()
+        login.classList.add("login-open")
+    }
+    function close() {
+        event.preventDefault()
+        login.classList.remove("login-open")
+    }
+    // otp request
+    let mobile = document.getElementById("request-otp")
+    mobile.addEventListener("click", mobileVerify)
+    function mobileVerify() {
+        event.preventDefault()
+        console.log("inside")
+        let phoneno = document.getElementById("phone").value
+        console.log(phoneno)
+        if (phoneno.length == 10) {
+            alert("verify your otp")
+        } else {
+            alert("enter a valid phone no")
+        }
+    }
+    // "verify"
+
+    let verify = document.getElementById("otp-button")
+    verify.addEventListener("click", Myfunction)
+    function Myfunction() {
+        event.preventDefault()
+        console.log("inside function")
+        let otp = document.getElementById("otp").value
+        if (otp == "1234") {
+            let name = document.getElementById("getname").value
+            localStorage.setItem("name", name)
+            localStorage.setItem("status", "online")
+            window.location.reload()
+        } else {
+            alert("wrong otp")
+        }
+    }
+
+}
 document.querySelector("div>#gotocart").addEventListener("click", function () {
     window.location.assign("cart.html")
 

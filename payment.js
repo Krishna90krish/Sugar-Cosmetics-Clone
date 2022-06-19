@@ -18,9 +18,12 @@ document.getElementById("next").addEventListener("click", function () {
         return elem == ""
     })
     if (a.length == 0) {
-        localStorage.setItem("User_details", JSON.stringify(info))
-        document.querySelector("#body").style.display = "none"
-        document.querySelector("#body_2").style.display = "block"
+        if (phone.length == 10) {
+            localStorage.setItem("User_details", JSON.stringify(info))
+            document.querySelector("#body").style.display = "none"
+            document.querySelector("#body_2").style.display = "block"
+        }
+        else { alert("Invalid Mobile Number") }
     } else {
         alert("Invalid input")
     }
