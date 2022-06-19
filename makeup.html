@@ -5,183 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Makeup</title>
-    <style>
-        *{
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-        }
-        #Product{
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            grid-template-rows: auto;
-            gap: 10px 20px;
-           
-        }
-        #Product>div{
-          padding: 20px;
-           
-        }
-        h2{
-            text-align: center;
-        }
-        p{
-            text-align: center;
-        }
-        button{
-            display: block;
-            padding: 5px;
-            margin: auto;
-            border-radius: 10px;
-         border: 0px;
-         color: transparent;
-            
-        }
-        button:hover{
-            background-color: black;
-            color: whitesmoke;
-        }
-        img{
-            width: 100%;
-        }
-        #home{
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-        }
-        #home2{
-           display: flex;
-           justify-content: space-around;
-        }
-        .bottom{
-          padding: 20px;
-          background-color: black;
-          color: white;
-     }
-     img:hover{
-     cursor: pointer;
-     }
-     #sugar-foot-logo{
-          width: 8%;
-          display: block;
-          margin: auto;
-     }
-     #social-logo{
-          margin: auto;
-          width:15% ;
-          display: flex;
-          justify-content: space-between;
-     }
-     #social-logo>img{
-          width: 20px;
-          height: 20px;
-     }
-     #social-logo+p{
-               text-transform: uppercase;
-               font-size: 15px;
-          }
-          #box1{
-               display: flex;
-               width: 100%;
-          }
-          #box1>div{
-               width: 50%;
-          }
-          #box11>p{
-               margin-bottom: 20px;
-          }
-          #box11>input{
-               border: none;
-               background-color:black;
-               padding: 10px;
-               font-size: 16px;
-               border-bottom: 2px solid white;
-          }
-          #box11>input:focus{
-               outline: none;
-          }
-          #box11>button{
-               padding: 15px 20px;
-               background-color: #fc2779;
-               border: none;
-               border-radius: 5px;
-          }
-          #box12>p{
-               margin-bottom: 20px;
-          }
-          #box121{
-               display: flex;
-          }
-          #box1211{
-            width: 30%;
-            color: gray;
-          }
-          #box1212 img{
-               width: 40%;
-               height: 35px;
-          }
-          .para20{
-               margin: 30px auto 30px 0px;
-          }
-          #box2{
-               width: 70%;
-               display: flex;
-               justify-content:space-between;
-               
-          }
-          #box2 a{
-               text-decoration: none;
-               color: gray;
-               font-size: 18px;
-          }
-          #box2 a:hover{
-               text-decoration: underline;
-          }
-          #getintouch{
-               width: 100%;
-               display: grid;
-               grid-template-columns: repeat(5,1fr);
-               grid-template-rows: auto;
-               justify-content: space-between;
-          }
-          #getintouch a{
-               text-decoration: none;
-               color: gray;
-          }
-          #getintouch a:hover{
-               text-decoration:underline;
-          }
-          #span{
-          text-transform: uppercase;
-          }
-          #getintouch p{
-               font-size: 20px;
-                margin-top: -5px;
-          }
-         #getintouch #lastpara{
-               font-size: 12px;
-               color: gray;
-          }
-          @media all and (min-width: 768px) and (max-width: 1024px){
-            #Product{
-           display: grid;
-            grid-template-columns: repeat(3,1fr);
-            grid-template-rows: auto;
-            width: auto;
-     
-        }
-          }
-          @media all and (min-width: 120px) and (max-width: 767px){
-            #Product{
-                display: grid;
-           grid-template-columns: repeat(2,1fr);
-           grid-template-rows: auto;
-           width: auto;
-    
-       }
-    </style>
+    <link rel="stylesheet" href="makeup.css">
 </head>
 <body>
+     <!-- /* navbar */ -->
+     <div id="navbar">
+        <div id="uppernav">
+            <img src="https://in.sugarcosmetics.com/desc-images/pride-logo-option.gif" id="home_page_1" alt="">
+
+            <div>
+                <input type="text" placeholder='Try "liquid lipstick" '>
+                <div id="topsearch">Search</div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://in.sugarcosmetics.com/desc-images/person.png" alt="">
+                    <a href="" id="loginS"> login/Register</a>
+                </div>
+            </div>
+
+            <div>
+                <img src="whishlist.jpg" alt="">
+                <img src="cart.jpg" alt="" id="gotocart">
+                <img src="https://in.sugarcosmetics.com/desc-images/discountIcon.svg" id="offers_img" alt="">
+            </div>
+
+        </div>
+        <div id="bottomnav">
+            <div>
+                <p id="makeup">MAKEUP</p>
+            </div>
+            <div>
+                <p id="brush">BRUSHES</p>
+            </div>
+            <div>
+                <p id="skincare">SKINCARE</p>
+            </div>
+            <div>
+                <p id="trending">TRENDING</p>
+            </div>
+            <div>
+                <p id="blog">BLOG</p>
+            </div>
+            <div>
+                <p id="offers">OFFERS</p>
+            </div>
+            <div>
+                <p>STORE</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="login" id="login">
+        <button id="login-off">X</button>
+        <h2>login/signup</h2>
+        <div id="login-box">
+            <div>
+                <!-- <img src="https://in.sugarcosmetics.com/smartphone.svg" alt=""> -->
+                <p>📱Login/Sign Up Using Phone</p>
+            </div>
+            <div class="login-name">
+                <h2 id="login-name">Name</h2>
+                <input type="text" required="required" id="getname">
+            </div>
+            <div>
+                <h1>+91</h1>
+                <input id="phone" type="phone" required="required" value="">
+                <button id="request-otp">Request OTP</button>
+            </div>
+            <p>Enter your phone no to Request an OTP</p>
+            <hr>
+            <div id="login-box3">
+                <input id="otp" type="number">
+                <button id="otp-button">
+                    Verify OTP
+                </button>
+            </div>
+            <input type="checkbox">
+            <label for="">Get Important Updates on Whatsapp. <a href=""> Terms and Conditions</a></label>
+        </div>
+        <p id="lastpara">Registering for this site allows you to access your order status and history. Just fill in the
+            fields below, and we'll get a new account set up for you in no time. We will only ask you
+            for information necessary to make the purchase process faster and easier</p>
+        <p>By Signing up or logging in, you agree to our <a href="">Terms and Conditions</a> </p>
+    </div>
+
+<!-- /* navbar */
+    navbar -->
     <div id="top">
             <img src="https://d32baadbbpueqt.cloudfront.net/Collection/6a68d77f-80b5-4860-9a4d-6005844c937d.jpg" alt="">
     </div>
@@ -191,8 +101,23 @@
            <p>Makeup  - 36 items</p>
         </div>
         <div id="home2">
-            <div><h3><img src="https://in.sugarcosmetics.com/desc-images/filterIcon.png" alt="">Filter</h3></div>
-            <div><h3><img src="https://in.sugarcosmetics.com/sortImage.png" alt="">Sort</h3></div>
+            <div>
+            <!-- <img src="https://in.sugarcosmetics.com/desc-images/filterIcon.png" alt=""> -->
+          <select  id=" Filter">
+                <option value="All"> ⫧ Filter</option>
+                <option value="Eyes">Eyesshadow brush</option>
+                <option value="Found">Foundation brush</option>
+               <option value="Face">Face brush</option>
+               <option value="Brush">Brush combo</option>
+            </select></div>
+        <div>
+            <select  id=" sort">
+                <option value="All"> ⇅  Sort</option>
+                <option value="Low">low Price</option>
+                <option value="popular"> More popular</option>
+               <option value="az">A-z</option>
+               <option value="New">New First</option>
+            </select></div>
         </div>
     </div>
     <div id="Product">
@@ -271,4 +196,4 @@
     
 </body>
 </html>
-<script src="makeup.js"></script>
+<script src="makeup.js"> </script>
