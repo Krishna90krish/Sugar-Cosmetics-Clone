@@ -89,7 +89,7 @@ let productData = [
         price: "RS.899",
         nprice: 899,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "stick",
     },
     {
         pname: "CHARCOAL PATROL BUBBLE MASK",
@@ -99,7 +99,7 @@ let productData = [
         price: "Rs.149",
         nprice: 149,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "mask",
     },
     {
         pname: "CHEAT SHEET CLARIFYING MASK",
@@ -109,7 +109,7 @@ let productData = [
         price: "Rs.99",
         nprice: 99,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "mask",
     },
     {
         pname: "CITRUS MOISTURIZER",
@@ -119,7 +119,7 @@ let productData = [
         price: "Rs.499",
         nprice: 499,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "moisturizer",
     },
     {
         pname: "POWER CLAY MASK STICK",
@@ -139,7 +139,7 @@ let productData = [
         price: "Rs.599",
         nprice: 599,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "stick",
     },
     {
         pname: "CITRUS GOT REAL BRIGHTENNING PEEL",
@@ -149,7 +149,7 @@ let productData = [
         price: "Rs.599",
         nprice: 599,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "sunscreen",
     },
     {
         pname: "CITRUS REAL SPF30 SUNSCREEN",
@@ -159,7 +159,7 @@ let productData = [
         price: "Rs.399",
         nprice: 399,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "sunscreen",
     },
     {
         pname: "CITRUS REAL COOLING STICK",
@@ -179,7 +179,7 @@ let productData = [
         price: "Rs.99",
         nprice: 99,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "stick",
     },
     {
         pname: "COFFE CULTURE EYE FIRMING CREAM",
@@ -198,7 +198,7 @@ let productData = [
         price: "Rs.399",
         nprice: 399,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "sunscreen",
     }, {
         pname: "AQUAHOLIC HYDRATING PRIMER",
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/Hydrating-Primer-3.jpg?v=1626423647",
@@ -207,7 +207,7 @@ let productData = [
         price: "Rs.699",
         nprice: 699,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "stick",
     }, {
         pname: "AQUAHOLIC CLARIFYING SPOT GEL",
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/Aquaholic-Extention-Spot-gel-2.jpg?v=1626363976",
@@ -216,7 +216,7 @@ let productData = [
         price: "Rs.399",
         nprice: 399,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "mask",
     }, {
         pname: "CITRUS GOT REAL RETINOL",
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/373532210-artboard-1.jpg?v=1646149967",
@@ -225,7 +225,7 @@ let productData = [
         price: "Rs.499",
         nprice: 499,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "mask",
     }, {
         pname: "ILLUMINATING SPF35 SUNSCREEN",
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/1_547e9188-e44c-4cf7-a32e-fc0f410e8062.jpg?v=1651852720",
@@ -234,7 +234,7 @@ let productData = [
         price: "Rs.599",
         nprice: 599,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "sunscreen",
     }, {
         pname: "ILLUMINATING SPF35 PA+++ SUNSCREEN",
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/1_e5df3bb8-4439-4980-ada2-aa90b126ada3.jpg?v=1651852746",
@@ -243,7 +243,7 @@ let productData = [
         price: "Rs.599",
         nprice: 599,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "sunscreen",
     }, {
         pname: "ACNE COMBO (PACK OF 6)",
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-acne-combo-pack-of-6-14056089157715.jpg?v=1619113757",
@@ -252,7 +252,7 @@ let productData = [
         price: "Rs.559",
         nprice: 559,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "mask",
     }, {
         pname: "COFFE CULTURE PORE PURIFYING MASK",
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/CCPorePurifyingMaskWBG-3.jpg?v=1628610298",
@@ -261,7 +261,7 @@ let productData = [
         price: "Rs.499",
         nprice: 499,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "mask",
     }, {
         pname: "AQUAHOLIC INSTANT PORE CLEANSING MASK",
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/Instant-Pore-Cleansing-Mask-1_1.jpg?v=1626423690",
@@ -270,7 +270,7 @@ let productData = [
         price: "Rs.499",
         nprice: 499,
         prate: "⭐ 4.5(13)", quantity: 0
-        , fill: "",
+        , fill: "mask",
     },
 
 
