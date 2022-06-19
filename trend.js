@@ -1,3 +1,86 @@
+// NAVBAR FUNCTION COPY
+document.querySelector("div>#offers_img").addEventListener("click", function () {
+    window.location.assign("offers.html")
+})
+document.querySelector("#home_page_1").addEventListener("click", function () {
+    window.location.assign("index.html")
+})
+document.querySelector("div>#gotocart").addEventListener("click", function () {
+    window.location.assign("cart.html")
+})
+document.querySelector("#bottomnav>div>#makeup").addEventListener("click", function () {
+    window.location.assign("makeup.html")
+})
+document.querySelector("#bottomnav>div>#brush").addEventListener("click", function () {
+    window.location.assign("brush.html")
+})
+document.querySelector("#bottomnav>div>#skincare").addEventListener("click", function () {
+    window.location.assign("skincare.html")
+})
+document.querySelector("#bottomnav>div>#trending").addEventListener("click", function () {
+    window.location.assign("trending.html")
+})
+document.querySelector("#bottomnav>div>#blog").addEventListener("click", function () {
+    window.location.assign("https://blog.sugarcosmetics.com/")
+})
+document.querySelector("#bottomnav>div>#offers").addEventListener("click", function () {
+    window.location.assign("offers.html")
+})
+
+
+
+//navbar function
+let display_name = localStorage.getItem("name") || ""
+if (display_name != "") {
+    document.getElementById("loginS").innerText = display_name
+} else {
+
+    document.getElementById("loginS").addEventListener("click", open)
+    let login = document.getElementById("login")
+    let button = document.getElementById("login-off")
+    button.addEventListener("click", close)
+    function open() {
+        event.preventDefault()
+        login.classList.add("login-open")
+    }
+    function close() {
+        event.preventDefault()
+        login.classList.remove("login-open")
+    }
+    // otp request
+    let mobile = document.getElementById("request-otp")
+    mobile.addEventListener("click", mobileVerify)
+    function mobileVerify() {
+        event.preventDefault()
+        console.log("inside")
+        let phoneno = document.getElementById("phone").value
+        console.log(phoneno)
+        if (phoneno.length == 10) {
+            alert("verify your otp")
+        } else {
+            alert("enter a valid phone no")
+        }
+    }
+    // "verify"
+
+    let verify = document.getElementById("otp-button")
+    verify.addEventListener("click", Myfunction)
+    function Myfunction() {
+        event.preventDefault()
+        console.log("inside function")
+        let otp = document.getElementById("otp").value
+        if (otp == "1234") {
+            let name = document.getElementById("getname").value
+            localStorage.setItem("name", name)
+            localStorage.setItem("status", "online")
+            window.location.reload()
+        } else {
+            alert("wrong otp")
+        }
+    }
+
+}
+
 let productData = [
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/1_6f55bcac-3e42-4253-88ee-cec0fa43c62a.jpg?v=1645608270",
@@ -22,7 +105,7 @@ let productData = [
         ptag: "MATTE AS HELL CRAYON LIPSTICK",
         pid: "s3",
         price: "Rs.799",
-        nprice:799 ,
+        nprice: 799,
         prate: "⭐4.8(945)", quantity: 0
         ,
     },
@@ -31,7 +114,7 @@ let productData = [
         ptag: "ACE OF FACE FOUNDATION STICK",
         pid: "s4",
         price: "Rs.999",
-        nprice:999 ,
+        nprice: 999,
         prate: "⭐4.8(570)", quantity: 0
         ,
     },
@@ -58,7 +141,7 @@ let productData = [
         ptag: "KOHL OF HONOUR INTENSE KAJAL - 01 BLACK OUT (BLACK)",
         pid: "s9",
         price: "Rs.249",
-        nprice:249 ,
+        nprice: 249,
         prate: "⭐4.8(97)", quantity: 0
         ,
     },
@@ -139,7 +222,7 @@ let productData = [
         ptag: "GLOSS BOSS @$HR EYELINER - 01 BACK IN BLACK (BLACK)",
         pid: "s18",
         price: "Rs.499",
-        nprice:499,
+        nprice: 499,
         prate: "⭐4.8(23)", quantity: 0
         ,
     },
@@ -187,7 +270,7 @@ let productData = [
         nprice: 799,
         prate: "⭐4.8(269)", quantity: 0
         ,
-    },    {
+    }, {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-warned-you-so-double-matte-eyeliner-01-black-swan-black-13954562654291.jpg?v=1619116881",
         ptag: "EYE WARNED YOU SO! DOUBLE MATTE EYELINER",
         pid: "s24",
@@ -231,7 +314,7 @@ let productData = [
         nprice: 1099,
         prate: "", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-lipping-on-the-edge-lip-liner-01-taffeta-terracotta-13278188568659.jpg?v=1619109027",
         ptag: "LIPPING ON THE EDGE LIP LINER",
@@ -240,7 +323,7 @@ let productData = [
         nprice: 499,
         prate: "⭐4.8(57)", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-the-most-eligiblur-smoothing-primer-28122626162771.jpg?v=1619115330",
         ptag: "THE MOST ELIGIBLUR SMOOTHING PRIMER",
@@ -249,7 +332,7 @@ let productData = [
         nprice: 799,
         prate: "⭐4.8(43)", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-liquid-lipstick-01-lyra-cool-toned-plum-13200549380179.jpg?v=1619110238",
         ptag: "METTLE LIQUID LIPSTICK",
@@ -258,7 +341,7 @@ let productData = [
         nprice: 599,
         prate: "⭐4.9(76)", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/1_270fb7dc-e51b-4c12-8bcf-18919fd35415.jpg?v=1652942969",
         ptag: "THE MOST ELIGIBLUR CORRECTING PRIMER - 02 ONWARD ORANGE (ORANGE)",
@@ -267,7 +350,7 @@ let productData = [
         nprice: 799,
         prate: "", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-contour-de-force-mini-blush-02-pink-pinnacle-deep-rose-12785043669075.jpg?v=1619102659",
         ptag: "CONTOUR DE FORCE MINI BLUSH - 02 PINK PINNACLE (DEEP ROSE)",
@@ -276,7 +359,7 @@ let productData = [
         nprice: 349,
         prate: "⭐5(6)", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/1CREATIVEIMAGE01.jpg?v=1639496051",
         ptag: "BORN TO WING GEL EYELINER",
@@ -285,7 +368,7 @@ let productData = [
         nprice: 599,
         prate: "⭐4.7(137)", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-seal-the-show-lip-primer-14162590433363.jpg?v=1619106825",
         ptag: "SEAL THE SHOW LIP PRIMER",
@@ -294,7 +377,7 @@ let productData = [
         nprice: 599,
         prate: "⭐4.6(71)", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-powder-play-translucent-compact-28122598932563.jpg?v=1619116304",
         ptag: "POWDER PLAY TRASLUCENT COMPACT",
@@ -303,7 +386,7 @@ let productData = [
         nprice: 599,
         prate: "⭐4.7(31)", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-arrested-for-overstay-waterproof-eyeliner-01-i-ll-be-black-black-12784884973651.jpg?v=1619101912",
         ptag: "ARRESTED FOR OVERSTAY WATERPROOF EYELINER - 01 I'LL BE BACK (BLACK)",
@@ -312,7 +395,7 @@ let productData = [
         nprice: 899,
         prate: "⭐4.7(20)", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-time-to-shine-lip-gloss-13905851580499.jpg?v=1619116676",
         ptag: "TIME TO SHINE LIP GLOSS",
@@ -321,7 +404,7 @@ let productData = [
         nprice: 499,
         prate: "⭐4.6(71)", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/1_aab4d2fb-22ff-4c06-b906-608c50c2cce5.jpg?v=1639582378",
         ptag: "STROKE OF GENIUS HEAVY-DUTY KOHL",
@@ -330,7 +413,7 @@ let productData = [
         nprice: 499,
         prate: "⭐4.8(83)", quantity: 0
         ,
-    },    {
+    }, {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-face-fwd-primer-stick-13825409417299.jpg?v=1619116598",
         ptag: "FACE FWD >> PRIMER STICK",
         pid: "s38",
@@ -338,7 +421,7 @@ let productData = [
         nprice: 799,
         prate: "⭐4.8(65)", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/1_2170e342-a8fc-4fb4-a5ea-5f0c8bedbfdf.jpg?v=1652942866",
         ptag: "THE MOST ELIGIBLUR CORRECTING PRIMER - 01 PEACH PRECEDENT (PEACH)",
@@ -347,7 +430,7 @@ let productData = [
         nprice: 799,
         prate: "", quantity: 0
         ,
-    },    
+    },
     {
         pimg: "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-told-you-so-smudgeproof-eyeliner-01-black-swan-black-13760408584275.jpg?v=1619116364",
         ptag: "EYE TOLD YOU SO! SMUDGEPROOF EYELINER",
@@ -356,7 +439,7 @@ let productData = [
         nprice: 699,
         prate: "⭐4.7(35)", quantity: 0
         ,
-    },    
+    },
 ]
 let pdata = document.querySelector("#Product");
 let filter = document.querySelector("#Filter");
@@ -366,16 +449,16 @@ function displayProducts(productData) {
     pdata.innerHTML = ""
     productData.forEach(function (elem) {
 
-     
+
         let prds = document.createElement("div");
-        
+
         let img = document.createElement("img");
         img.src = elem.pimg;
         let tag = document.createElement("h2");
         tag.innerText = elem.ptag;
         let rate = document.createElement("p");
         rate.innerText = elem.price;
-       
+
         let rateing = document.createElement("p");
         rateing.innerText = elem.prate;
 
@@ -410,13 +493,13 @@ function displayProducts(productData) {
 
         })
 
-        prds.append(img, tag, rate,  rateing, addtocar);
+        prds.append(img, tag, rate, rateing, addtocar);
         pdata.append(prds);
 
     })
 }
 filter.addEventListener("change", function () {
- 
+
     if (filter.value == "All") {
         displayProducts(productData)
     }

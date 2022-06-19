@@ -3,7 +3,7 @@ document.querySelector("div>#offers_img").addEventListener("click", function () 
     window.location.assign("offers.html")
 })
 document.querySelector("#home_page_1").addEventListener("click", function () {
-    window.location.assign("home.html")
+    window.location.assign("index.html")
 })
 document.querySelector("div>#gotocart").addEventListener("click", function () {
     window.location.assign("cart.html")

@@ -80,6 +80,7 @@
     font-size: 20px;
 }
 
+
 /* login */
 
 #login {
@@ -179,275 +180,312 @@ hr {
     margin-top: 20px;
 }
 
-.bottom{
+.bottom {
     padding: 20px;
     background-color: black;
-    color:white;
-    
-  }
-  
-  img:hover{
-  cursor: pointer;
-  }
-  #sugar-foot-logo{
+    color: white;
+
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#sugar-foot-logo {
     width: 8%;
     display: block;
     margin: auto;
-  }
-  #social-logo{
+}
+
+#social-logo {
     margin: auto;
-    width:15% ;
+    width: 15%;
     display: flex;
     justify-content: space-between;
-  }
-  #social-logo>img{
+}
+
+#social-logo>img {
     width: 20px;
     height: 20px;
-  }
-  #social-logo+p{
-         text-transform: uppercase;
-         font-size: 15px;
-    }
-    #box1{
-         display: flex;
-         width: 100%;
-    }
-    #box1>div{
-         width: 50%;
-    }
-    #box11>p{
-         margin-bottom: 20px;
-    }
-    #box11>input{
-         border: none;
-         background-color:black;
-         padding: 10px;
-         font-size: 16px;
-         border-bottom: 2px solid white;
-    }
-    #box11>input:focus{
-         outline: none;
-    }
-    #box11>button{
-         padding: 15px 20px;
-         background-color: #fc2779;
-         border: none;
-         border-radius: 5px;
-    }
-    #box12>p{
-         margin-bottom: 20px;
-    }
-    #box121{
-         display: flex;
-    }
-    #box1211{
-      width: 30%;
-      color: gray;
-    }
-    #box1212 img{
-         width: 40%;
-         height: 35px;
-    }
-    .para20{
-         margin: 30px auto 30px 0px;
-    }
-    #box2{
-         width: 70%;
-         display: flex;
-         justify-content:space-between;
-         
-    }
-    #box2 a{
-         text-decoration: none;
-         color: gray;
-         font-size: 18px;
-    }
-    #box2 a:hover{
-         text-decoration: underline;
-    }
-    #getintouch{
-         width: 100%;
-         display: grid;
-         grid-template-columns: repeat(5,1fr);
-         grid-template-rows: auto;
-         justify-content: space-between;
-    }
-    #getintouch a{
-         text-decoration: none;
-         color: gray;
-    }
-    #getintouch a:hover{
-         text-decoration:underline;
-    }
-    #span{
-    text-transform: uppercase;
-    }
-    #getintouch p{
-         font-size: 20px;
-          margin-top: -5px;
-    }
-   #getintouch #lastpara{
-         font-size: 12px;
-         color: gray;
-    }
-    @media all and (min-width: 768px) and (max-width: 984px){
-      #Product{
-     display: grid;
-      grid-template-columns: repeat(3,1fr);
-      grid-template-rows: auto;
-      width: auto;
-  
-  }
-    }
-    @media all and (min-width: 120px) and (max-width: 767px){
-      #Product{
-          display: grid;
-     grid-template-columns: repeat(2,1fr);
-     grid-template-rows: auto;
-     width: auto;
-  
-  }
 }
-  #login {
-      width: 50%;
-      background-color: pink;
-      padding: 15px;
-      margin-left: 50%;
-      position: fixed;
-      top: 0%;
-      height: 100vh;
-  }
-  
-  .login {
-      visibility: hidden;
-  }
-  
-  .login-open {
-      visibility: visible;
-  }
-  
-  #login>button {
-      width: 20px;
-      font-size: 20px;
-      background-color: pink;
-      border: none;
-      color: white;
-  }
-  
-  #login>h2 {
-      color: whitesmoke;
-      text-transform: capitalize;
-      font-size: 30px;
-      margin-bottom: 20px;
-  }
-  
-  #login-box {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      background-color: white;
-      width: 90%;
-      padding: 20px;
-  }
-  
-  #login-box>div {
-      display: flex;
-      justify-content: space-between;
-      width: 80%;
-      margin: 20px;
-  }
-  
-  #login-box>div>img {
-      width: 40px;
-  }
-  
-  #login-box>div>p {
-      font-size: 30px;
-  }
-  
-  #login-box>div>input {
-      width: 60%;
-      border: none;
-      border-bottom: 2px solid pink;
-      margin-right: 20px;
-      font-size: 30px;
-  }
-  
-  #login-box>div>button {
-      padding: 0px 10px;
-  }
-  
-  #login-box>div+p {
-      color: red;
-      margin-bottom: 20px;
-  }
-  
-  hr {
-      margin-bottom: 30px;
-  }
-  
-  #otp {
-      width: 5%;
-      border: none;
-      border-bottom: 2px solid pink;
-  }
-  
-  #login-box>#login-box3 {
-      width: 60%;
-  }
-  
-  #login-box>#login-box3>button {
-      padding: 10px 15px;
-  }
-  
-  #lastpara {
-      text-align: left;
-      font-size: 18px;
-      margin-bottom: 10px;
-      margin-top: 20px;
-  }
-  *{
+
+#social-logo+p {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#box1 {
+    display: flex;
+    width: 100%;
+}
+
+#box1>div {
+    width: 50%;
+}
+
+#box11>p {
+    margin-bottom: 20px;
+}
+
+#box11>input {
+    border: none;
+    background-color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 2px solid white;
+}
+
+#box11>input:focus {
+    outline: none;
+}
+
+#box11>button {
+    padding: 15px 20px;
+    background-color: #fc2779;
+    border: none;
+    border-radius: 5px;
+}
+
+#box12>p {
+    margin-bottom: 20px;
+}
+
+#box121 {
+    display: flex;
+}
+
+#box1211 {
+    width: 30%;
+    color: gray;
+}
+
+#box1212 img {
+    width: 40%;
+    height: 35px;
+}
+
+.para20 {
+    margin: 30px auto 30px 0px;
+}
+
+#box2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#box2 a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
+#box2 a:hover {
+    text-decoration: underline;
+}
+
+#getintouch {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    justify-content: space-between;
+}
+
+#getintouch a {
+    text-decoration: none;
+    color: gray;
+}
+
+#getintouch a:hover {
+    text-decoration: underline;
+}
+
+#span {
+    text-transform: uppercase;
+}
+
+#getintouch p {
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+#getintouch #lastpara {
+    font-size: 12px;
+    color: gray;
+}
+
+@media all and (min-width: 768px) and (max-width: 984px) {
+    #Product {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        width: auto;
+
+    }
+}
+
+@media all and (min-width: 120px) and (max-width: 767px) {
+    #Product {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        width: auto;
+
+    }
+}
+
+#login {
+    width: 50%;
+    background-color: pink;
+    padding: 15px;
+    margin-left: 50%;
+    position: fixed;
+    top: 0%;
+    height: 100vh;
+}
+
+.login {
+    visibility: hidden;
+}
+
+.login-open {
+    visibility: visible;
+}
+
+#login>button {
+    width: 20px;
+    font-size: 20px;
+    background-color: pink;
+    border: none;
+    color: white;
+}
+
+#login>h2 {
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#login-box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    width: 90%;
+    padding: 20px;
+}
+
+#login-box>div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px;
+}
+
+#login-box>div>img {
+    width: 40px;
+}
+
+#login-box>div>p {
+    font-size: 30px;
+}
+
+#login-box>div>input {
+    width: 60%;
+    border: none;
+    border-bottom: 2px solid pink;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+#login-box>div>button {
+    padding: 0px 10px;
+}
+
+#login-box>div+p {
+    color: red;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+#otp {
+    width: 5%;
+    border: none;
+    border-bottom: 2px solid pink;
+}
+
+#login-box>#login-box3 {
+    width: 60%;
+}
+
+#login-box>#login-box3>button {
+    padding: 10px 15px;
+}
+
+#lastpara {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-#Product{
+
+#Product {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     gap: 10px 20px;
-   
+
 }
-#Product>div{
-  padding: 20px;
-   
+
+#Product>div {
+    padding: 20px;
+
 }
-h2{
+
+h2 {
     text-align: center;
 }
-p{
+
+p {
     text-align: center;
 }
-button{
+
+button {
     display: block;
     padding: 5px;
     margin: auto;
     border-radius: 10px;
- border: 0px;
- color: white;
-    
+    border: 0px;
+    color: white;
+
 }
-button:hover{
+
+button:hover {
     background-color: black;
     color: whitesmoke;
 }
-img{
+
+img {
     width: 100%;
 }
-#home{
+
+#home {
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
-#home2{
-   display: flex;
-   justify-content: space-around;
-}  
+
+#home2 {
+    display: flex;
+    justify-content: space-around;
+}

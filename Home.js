@@ -3,7 +3,7 @@ document.querySelector("div>#offers_img").addEventListener("click", function () 
     window.location.assign("offers.html")
 })
 document.querySelector("#home_page_1").addEventListener("click", function () {
-    window.location.assign("home.html")
+    window.location.assign("index.html")
 })
 document.querySelector("div>#gotocart").addEventListener("click", function () {
     window.location.assign("cart.html")
@@ -688,65 +688,7 @@ document.querySelector("#second_slide_image>div:last-child").addEventListener("c
 
 
 
-let multi_2 = 0
-let multi_slide_arr_2 = [
-    {
-        image: "https://in.sugarcosmetics.com/products/shine-pout-makeup-value-set",
-        name: "SHINE & POUT MAKEUP SET",
-        price: "₹ 999",
-        cart: "SHOP NOW",
 
-    },
-    {
-        image: "",
-        name: "",
-        price: "₹",
-        cart: "SHOP NOW",
-
-    },
-    {
-        image: "",
-        name: "",
-        price: "₹",
-        cart: "SHOP NOW",
-
-    },
-    {
-        image: "",
-        name: "",
-        price: "₹",
-        cart: "SHOP NOW",
-
-    },
-    {
-        image: "",
-        name: "",
-        price: "₹",
-        cart: "SHOP NOW",
-
-    },
-    {
-        image: "",
-        name: "",
-        price: "₹",
-        cart: "SHOP NOW",
-
-    },
-    {
-        image: "",
-        name: "",
-        price: "₹",
-        cart: "SHOP NOW",
-
-    },
-    {
-        image: "",
-        name: "",
-        price: "₹",
-        cart: "SHOP NOW",
-
-    }
-]
 document.querySelector("#seventh_image>div:first-child").addEventListener("click", function () {
     for (let i = 1; i < 5; i++) {
         multi_2--

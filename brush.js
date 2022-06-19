@@ -2,7 +2,7 @@ document.querySelector("div>#offers_img").addEventListener("click", function () 
     window.location.assign("offers.html")
 })
 document.querySelector("#home_page_1").addEventListener("click", function () {
-    window.location.assign("home.html")
+    window.location.assign("index.html")
 })
 document.querySelector("div>#gotocart").addEventListener("click", function () {
     window.location.assign("cart.html")
@@ -226,9 +226,9 @@ function displayProducts(productData) {
     pdata.innerHTML = ""
     productData.forEach(function (elem) {
 
-     
+
         let prds = document.createElement("div");
-        
+
         let img = document.createElement("img");
         img.src = elem.pimg;
         let tag = document.createElement("h2");
@@ -277,7 +277,7 @@ function displayProducts(productData) {
     })
 }
 filter.addEventListener("change", function () {
- 
+
     if (filter.value == "All") {
         displayProducts(productData)
     }

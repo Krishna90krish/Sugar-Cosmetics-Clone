@@ -57,5 +57,9 @@ document.getElementById("pay").addEventListener("click", function () {
 
 document.querySelector("#home_1").addEventListener("click", function () {
     console.log("in")
-    window.location.assign("home.html")
+    window.location.assign("index.html")
+})
+document.querySelector("#abc").addEventListener("click", function () {
+    console.log("in")
+    window.location.assign("index.html")
 })
