@@ -1,3 +1,5 @@
+# Sugar cosmetics
+An ecommerce site where users can buy beauty products offering a comprehensive selection of cosmetics, skincare, haircare, fragrances, bath and body, luxury and wellness products for women and men.  
 
 ### Netlify Link
 [Sugar Cosmectic clone](https://spectacular-dasik-11b986.netlify.app/)
@@ -18,7 +20,7 @@
 
 ## Contributors
 
-#### Satya Sai
+### Satya Sai
 > Github: [Krishna90krish](https://github.com/Krishna90krish)
 Worked on Makeup, Brushes, login, and singup Pages
 
